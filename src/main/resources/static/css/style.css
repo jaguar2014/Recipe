@@ -1,0 +1,32 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+/*.container-fluid,.col-md-12,.row {*/
+    /*height:100%;*/
+/*}*/
+
+
+
+.rb {
+   background: url("/images/myrecipiebook.jpg") no-repeat;
+
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding:100px;
+    top-margin:0;
+
+}
+
+.navbar{
+    margin-bottom: -20px;
+}
+
