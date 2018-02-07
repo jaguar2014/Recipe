@@ -20,13 +20,16 @@ img {
 
     height: 100%;
     background-position: center;
-    background-size: cover;
-    padding:100px;
-    top-margin:0;
+    background-size: contain;
+    padding:200px;
+    top-margin:100px;
+    background-color: burlywood;
+
+
 
 }
 
 .navbar{
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 
