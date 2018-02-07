@@ -5,14 +5,80 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Recipe Book Index</title>
-    <link th:replace="template::bootstrapcss" rel="stylesheet" href="#" />
+    <link th:replace="template::bootstrapcss" rel="stylesheet" href="#"/>
+    <link rel="stylesheet" href="/css/gallery.css"/>
+
 </head>
 <body>
 <nav th:replace="template::navigation"></nav>
 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="/injera">
+                <div><img src="/images/injera.jpg" alt="injera" class="img-responsive img-thumbnail"/>
+
+                    link to injera
+                </div>
+
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="/pumkin">
+
+                <div>
+                    <img src="/images/pumkin-rice-noodles.jpg" alt="pumkin rice noodles"
+                         class="img-responsive img-thumbnail"/>
+                    link to pumkin
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="/golab">
+                <div><img src="/images/jamun.jpg" alt="golab jamun" class="img-responsive"/>
+
+                    link to golab
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="/jerk">
+                <div><img src="/images/jerk-chicken.jpg" alt="jerk chicken" class="img-responsive"/>
+
+                    link to Jerk chicken
+                </div>
+
+            </a>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="/croque">
+                <div><img src="/images/Croque-Madame.jpg" alt="croque" class="img-responsive"/>
+
+                    link to croque
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="/bara">
+                <div><img src="/images/Nepali-Bara.jpg" alt="injera" class="img-responsive"/>
+
+                    link to bara
+                </div>
+            </a>
+        </div>
+
+    </div>
 
 
-
+</div>
 
 
 <script th:replace="template::bootstrapjs"></script>
